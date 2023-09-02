@@ -20,9 +20,6 @@ def sum_even_num(input_range):
             sum_even_num+=i
     return (sum_even_num)
 
-even_num_list(enter_range)
-sum_even_num(enter_range)
-
 print(f"All even numbers from (1 - {enter_range}): ", even_num_list(enter_range))
 print(f"sum of all even numbers from (1 - {enter_range}): ", sum_even_num(enter_range))
 
